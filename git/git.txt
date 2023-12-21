@@ -1,0 +1,54 @@
+Git commands :
+
+A. how to commit and push existing code to new repo on GitHub :
+1. git init
+2. git remote add origin “link”
+3. git add .
+4. git commit -m “first commit”
+5. git push -u origin main
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+B. how to change branch and commit changes :
+
+# for commit message 
+Fix : bugs
+Feature : new 
+Chore : wrong stuff but not interfering with production 
+
+# for branch naming
+Git branch fix/heading-font
+Git branch feat/new-feature
+Git branch chore/xyz-abc 
+
+# for setup
+	⁃	git clone <PROJECT_URL>
+	⁃	setup steps from README.md
+	⁃	git(main) -> own branch [guide above mentioned]
+	⁃	git branch <NEW_BRANCH>
+	⁃	git checkout <NEW_BRANCH>
+	⁃	changes in branch 
+	⁃	git add .
+	⁃	git commit -m “….” [guide mentioned above]
+	⁃	git push origin <BRANCH_NAME>
+
+# for upstream 
+	⁃	Copy project URL 
+	⁃	git remote -v 
+	⁃	git remote add upstream <PROJECT_URL>
+	⁃	git remote -v 
+	⁃	git fetch upstream 
+	⁃	To pull changes -> VCS -> three dot -> Pull, Push -> Pull From -> Upstream URL -> upstream/main
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C. how to clone repo from GitHub :
+    1. cd into the folder 
+    2. git clone “clone link”
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D. how to push updated code to repo that has already been linked to and pushed to 
+1. git add .
+2. git status(optional)(to see if changes are staged or not)
+3. git commit -m ”files changes”
+4. git push origin main 
+
+
+
+
