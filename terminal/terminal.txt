@@ -24,3 +24,7 @@ Basic terminal commands
 23. journalctl -linux specific command to see logs of system/specific service 
 24. top- monitoring tool to see cpu usage, etc . 
 
+
+For Further information about the vim terminal , use the command : vimtutor and hit enter in your terminal 
+the above tutorial makes even the beginners comfortable with the terminal , i suggest everyone should give it a try 
+
