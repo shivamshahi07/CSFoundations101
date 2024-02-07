@@ -48,6 +48,22 @@ D. how to push updated code to repo that has already been linked to and pushed t
 2. git status(optional)(to see if changes are staged or not)
 3. git commit -m ”files changes”
 4. git push origin main 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E. Process of making a Pull Request on a public Repository
+1. fork the repo 
+2. clone the forked repo 
+3. setting up the project 
+4. making changes 
+5. build the project 
+6. git branch new-branch-name
+7. git checkout new-branch-name
+8. git add . 
+9. git commit -m “”
+10. git push origin new-branch-name
+11. compare and pull request on fork repo GitHub site 
+12. make pr with images and lists 
+13. submit pr 
+
 
 
 
