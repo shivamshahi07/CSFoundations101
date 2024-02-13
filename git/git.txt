@@ -5,7 +5,9 @@ A. how to commit and push existing code to new repo on GitHub :
 2. git remote add origin “link”
 3. git add .
 4. git commit -m “first commit”
+*4. git commit -am "message" (combines both step 3 and 4)
 5. git push -u origin main
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 B. how to change branch and commit changes :
