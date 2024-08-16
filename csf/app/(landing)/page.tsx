@@ -1,17 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { MoveRight } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gray-100 p-8">
-      <div className=""></div>
+    <main className="flex min-h-screen flex-col items-center justify-center bg-amber-100 ">
       <div className="text-center tracking-wide md:text-6xl text-3xl   justify-center mt-20 lg:px-44 font-bold leading-snug">
         Learn Full-Stack Development from scratch with
         <span
           id="stroke"
-          className="relative whitespace-nowrap text-teal-500 ml-3 "
+          className="relative whitespace-nowrap text-sky-500 ml-3 "
         >
           <svg
             aria-hidden="true"
@@ -19,7 +17,7 @@ export default function Home() {
             height="11"
             viewBox="0 0 159 11"
             xmlns="http://www.w3.org/2000/svg"
-            className="absolute -bottom-7 left-0 h-[0.58em] w-full fill-teal-500"
+            className="absolute -bottom-7 left-0 h-[0.58em] w-full fill-sky-500"
             preserveAspectRatio="none"
           >
             <g clipPath="url(#clip0_6_2645)">
