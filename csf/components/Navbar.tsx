@@ -8,7 +8,7 @@ import { navItems } from "./nav-items";
 
 export const Navbar = () => {
   return (
-    <div className="fixed z-50 top-0 border-b shadow-sm w-full h-14 px-4 bg-background/60 backdrop-blur-md flex items-center">
+    <div className="fixed z-50 top-0 border-b border-white/10 w-full h-14 px-4 bg-slate-950/60 backdrop-blur-md flex items-center">
       <div className="md:max-w-screen-2xl mx-auto flex items-center justify-between w-full">
         <div className="sm:flex items-center hidden">
         {navItems.map((item) => {
@@ -16,7 +16,7 @@ export const Navbar = () => {
               <Button
                 key={item.id}
                 
-                className="space-x-1 hover:no-underline hover:text-blue-500"
+                className="space-x-1 hover:no-underline hover:text-sky-400 text-slate-300"
                 variant={"link"}
                 size={"sm"}
                 asChild
